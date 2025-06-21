@@ -1,0 +1,237 @@
+/* 0-480-767-1023-1200 */
+
+
+/* big tablets 1200px */
+
+@media only screen and (max-width:1200px){
+  .hero-text-box{
+    width: auto;
+  }
+}
+
+
+/* small tablets to big tablets 768 to 1023px*/
+
+@media only screen and (max-width:1023px){
+  .long-copy{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  body{
+    font-size: 18px;
+  }
+  section{
+    padding: 60px 0;
+  }
+  .hero-text-box{
+    width: 50%;
+  }
+  .main-nav li{
+    margin: 1rem;
+  }
+  nav{
+    margin: 0;
+    padding: 0;
+  }
+  .city-img{
+    width: 95%;
+    margin: auto;
+  }
+  .para{
+    padding-top: 0 !important;
+  }
+  .btn-app{
+    margin-top: -3rem;
+  }
+  .plan-price{
+    font-size: 250%;
+  }
+  .contact-form{
+    width: 90%;
+  }
+   .footer-nav{
+    width: 100%;
+  }
+  .footer-nav li{
+    margin-left: 3px;
+  }
+}
+
+
+/* small phones to small tablets 481 to 767px*/
+
+@media only screen and (max-width:767px){
+  body,
+  html{
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  section{
+    padding: 30px 0px !important;
+  }
+
+  .main-nav{
+    display: none;
+    width: 10%;
+  }
+  .hero-text-box{
+    width: 90%;
+    transform: translate(-28%, -50%);
+  }
+  .section-meals{
+    background-color: #555;
+  }
+  .meal-photo img {
+    width: 100%;
+    height: 100vw;
+    display: block;
+  }
+  .meals-showcase {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    gap: 10px;
+  }
+  .section-steps .row{
+    display: flex;
+    flex-direction: column;
+  }
+  .app-screen{
+    height: 8rem;
+    width: auto;
+  }
+  .works-step{
+    width: 100%;
+  }
+  .step-box:last-child{
+    width: 100%;
+  }
+  .meals-showcase li {
+    flex: 0 0 48%;
+    list-style: none;
+  }
+  .row{
+    margin: 0;
+  }
+  .step-box:first-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  .para{
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  .plan-price{
+    font-weight: 300;
+    font-size: 200%;
+  }
+  .icon-small{
+    font-size: 0.5rem;
+    margin-right: 0;
+  }
+  .social-links{
+    float: left;
+  }
+  
+}
+
+
+/* small phones 0 to 480px*/
+
+@media only screen and (max-width:480){
+  body{
+    font-size: 12px;
+  }
+  header{
+    margin-left: 1rem;
+  }
+  .hero-text-box{
+    margin-left: 4rem;
+    width: 100%;
+    height: 10rem;
+  }
+  .main-nav{
+    display: none;
+  }
+  .logo{
+    height: 1.8rem;
+  }
+  .section-features{
+    padding: 1rem;
+  }
+  .long-copy{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .section-meals{
+    width: auto;
+    aspect-ratio: 1/1;
+  }
+  .section-steps{
+    padding: 2rem 0;
+
+  }
+  .step-box:first-child{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+    .store-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .store-buttons img {
+  width: 120px;
+  }
+    .steps-box{
+      margin-top: 10px;
+    }
+    .steps-box:last-child{
+      margin-top: 10px;
+    }
+    .works-step{
+      margin-bottom: 40px;
+    }
+    .icon-small{
+      width: 17px;
+      margin-right: 5px;
+    }
+    .city-feature{
+      font-size: 90%;
+    }
+    .plan-box{
+      width: 100%;
+      margin-left: 0;
+    }
+    .plan-price{
+      font-size: 250%;
+    }
+    .contact-form{
+      width: 80%;
+    }
+    .meal-photo{
+      width: 100%;
+      aspect-ratio: 1/1;
+      overflow: hidden;
+    }
+    .plan-box{
+      font-size: 80%;
+    }
+    .plan-price{
+      font-weight: 300;
+    }
+    .footer-nav{
+      display: flex;
+    }
+}
