@@ -83,11 +83,6 @@
   .section-meals{
     background-color: #555;
   }
-  .meal-photo img {
-    width: 100%;
-    height: 100vw;
-    display: block;
-  }
   .meals-showcase {
     display: flex;
     flex-wrap: wrap;
