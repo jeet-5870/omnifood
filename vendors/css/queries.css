@@ -90,6 +90,19 @@
     padding: 0;
     gap: 10px;
   }
+  .meal-photo {
+  aspect-ratio: 1 / 1;
+  height: auto; /*override the fixed height*/
+  overflow: hidden;
+}
+  
+.meal-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
   .section-steps .row{
     display: flex;
     flex-direction: column;
